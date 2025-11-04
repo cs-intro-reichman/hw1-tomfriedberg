@@ -8,6 +8,6 @@ public class FVCalc {
 		double rateM = 1 + r / 100.0;
 		double finalValue = p * Math.pow(rateM,years);
 		int finalValue2 = (int) finalValue;
-		System.out.println("After " + years + " years, " + p + "$ saved at " + r + "% will yield " + finalValue2);
+		System.out.println("After " + years + " years, $" + p + " saved at " + r + "% will yield $" + finalValue2);
 	}
 }
