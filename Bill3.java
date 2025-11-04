@@ -10,7 +10,7 @@ public class Bill3 {
 		double amountPerDiner = (double) sumbill / 3.0;
 		double roundedAmount = Math.ceil(amountPerDiner);
 
-        System.out.println(name3 + ", " + name2 + " and " + name1 + 
-                               ": pay " + roundedAmount + " Shekels each.");
+        System.out.println(name3 + ", " + name2 + ", and " + name1 + 
+                               ": pay " + roundedAmount + " Shekels each");
 	}
 }
